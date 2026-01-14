@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wisata Alam Cilembu - Pamulihan, Sumedang</title>
+  <meta name="description" content="Website wisata alam Cilembu Pamulihan Sumedang. Nikmati panorama alam, udara sejuk, dan pesona desa wisata." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
+    body { line-height: 1.6; color: #1f2937; }
+    header { background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center; color: #fff; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 18px 8%; }
+    nav h1 { font-size: 1.4rem; letter-spacing: .5px; }
+    nav ul { list-style: none; display: flex; gap: 22px; }
+    nav a { color: #fff; text-decoration: none; font-weight: 500; }
+    .hero { padding: 90px 8% 110px; max-width: 900px; }
+    .hero h2 { font-size: 2.6rem; margin-bottom: 12px; }
+    .hero p { font-size: 1.05rem; opacity: .95; }
+    .btn { display: inline-block; margin-top: 18px; padding: 12px 22px; background: #16a34a; color: #fff; border-radius: 8px; text-decoration: none; font-weight: 600; }
+
+    section { padding: 70px 8%; }
+    .section-title { text-align: center; margin-bottom: 36px; }
+    .section-title h3 { font-size: 2rem; margin-bottom: 8px; }
+    .section-title p { color: #4b5563; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
+    .card { background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+    .card img { width: 100%; height: 180px; object-fit: cover; }
+    .card .content { padding: 16px; }
+    .card h4 { margin-bottom: 8px; }
+    .card p { color: #4b5563; font-size: .95rem; }
+
+    .info { background: #f0fdf4; }
+    .info ul { max-width: 800px; margin: auto; }
+    .info li { margin: 10px 0; }
+
+    footer { background: #111827; color: #d1d5db; padding: 30px 8%; }
+    footer p { text-align: center; font-size: .9rem; }
+
+    @media (max-width: 640px) {
+      .hero h2 { font-size: 2rem; }
+      nav ul { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Wisata Cilembu</h1>
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#daya-tarik">Daya Tarik</a></li>
+        <li><a href="#informasi">Informasi</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Wisata Alam Cilembu</h2>
+      <p>Menikmati keindahan alam Pamulihan, Sumedang dengan udara sejuk, panorama perbukitan, serta kearifan lokal desa wisata Cilembu.</p>
+      <a href="#tentang" class="btn">Jelajahi Sekarang</a>
+    </div>
+  </header>
+
+  <section id="tentang">
+    <div class="section-title">
+      <h3>Tentang Cilembu</h3>
+      <p>Desa wisata dengan pesona alam dan budaya lokal</p>
+    </div>
+    <p style="max-width: 900px; margin: auto; text-align: center;">
+      Cilembu terletak di Kecamatan Pamulihan, Kabupaten Sumedang, Jawa Barat. Daerah ini dikenal dengan pemandangan alam yang indah, udara yang sejuk, serta suasana pedesaan yang masih asri. Selain terkenal dengan ubi Cilembu, kawasan ini juga menawarkan wisata alam yang cocok untuk keluarga, pecinta alam, dan wisatawan yang ingin menenangkan diri.
+    </p>
+  </section>
+
+  <section id="daya-tarik">
+    <div class="section-title">
+      <h3>Daya Tarik Wisata</h3>
+      <p>Alasan mengapa Cilembu wajib dikunjungi</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <img src="cekdam.jpg" alt="Pemandangan Alam">
+        <div class="content">
+          <h4>Pemandangan Alam</h4>
+          <p>Hamparan perbukitan hijau dan suasana alami yang menyejukkan mata.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Desa-Cilembu-2077695095.webp" alt="Udara Sejuk">
+        <div class="content">
+          <h4>Udara Sejuk</h4>
+          <p>Lokasi di dataran tinggi membuat udara di Cilembu terasa segar.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="cekdam.jpg" alt="Wisata Edukasi">
+        <div class="content">
+          <h4>Wisata Edukasi</h4>
+          <p>Mengenal pertanian, budaya lokal, dan produk khas desa Cilembu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="informasi" class="info">
+    <div class="section-title">
+      <h3>Informasi Wisata</h3>
+      <p>Hal penting sebelum berkunjung</p>
+    </div>
+    <ul>
+      <li><strong>Lokasi:</strong> Desa Cilembu, Kecamatan Pamulihan, Kabupaten Sumedang</li>
+      <li><strong>Akses:</strong> Dapat ditempuh dengan kendaraan pribadi maupun motor</li>
+      <li><strong>Waktu terbaik:</strong> Pagi dan sore hari</li>
+      <li><strong>Tips:</strong> Gunakan pakaian hangat dan jaga kebersihan lingkungan</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Wisata Alam Cilembu Pamulihan Sumedang | Dibuat untuk edukasi</p>
+  </footer>
+
+</body>
+</html>
